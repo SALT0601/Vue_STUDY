@@ -29,6 +29,13 @@ Global로 설치한다. 프로젝트를 어느 위치에 만들지 모름. 어�
     vue create projectName
     ex) vue create template
 
+    vue create chap03
+        Defailt Vue 2 선택
+    vue create chap04
+    vue create chap05_router
+    vue create chap06
+ 
+
     cd template
     npm i bootstrap@4       sample이 bootstrap을 이용해서 만들어짐.
 
