@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script type="text/javascript" src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
     <title>A03 Repeat</title>
 </head>
+
 <body>
     <div class="card-body" id="app">
         <h3>A03 Vue Component Repeat</h3>
@@ -35,24 +37,24 @@
         <table class="table">
             <thead>
                 <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Kor</th>
-                <th>Eng</th>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Kor</th>
+                    <th>Eng</th>
                 </tr>
             </thead>
             <tbody>
-                
+
             </tbody>
         </table>
         <br>
 
         <div>
-            <button class="btn btn-outline-primary btn-sm" >Check</button>
-            <button class="btn btn-outline-primary btn-sm" >IF</button>
-            <button class="btn btn-outline-primary btn-sm" >Else IF</button>
-            <button class="btn btn-outline-primary btn-sm" >Else</button><br>
+            <button class="btn btn-outline-primary btn-sm">Check</button>
+            <button class="btn btn-outline-primary btn-sm">IF</button>
+            <button class="btn btn-outline-primary btn-sm">Else IF</button>
+            <button class="btn btn-outline-primary btn-sm">Else</button><br>
         </div>
     </div>
 
@@ -63,7 +65,7 @@
                 { name: 'NolBu', age: 50, kor: 90, eng: 90 },
                 { name: 'HungBu', age: 40, kor: 70, eng: 60 },
             ]
-        }
+        };
 
         const app = new Vue({
             el: '#app',
@@ -72,9 +74,10 @@
                 name: 'nolbu',
             },
             methods: {
-                
+
             },
         })
     </script>
 </body>
+
 </html>
